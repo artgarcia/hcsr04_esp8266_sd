@@ -6,4 +6,7 @@ HC-SR04 Distance sensor using Node MCU ESP 8266 Arduino Chip
   <img src="hcsr04_esp8266_sd/WP_20170326_21_52_57_Rich.png" />
 </p>
 
-
+ image:: https://url/path/to/image
+  :height: 100px
+  :width: 200 px
+  :scale: 50 %
