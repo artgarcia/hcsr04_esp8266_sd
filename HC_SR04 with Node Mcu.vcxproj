@@ -78,12 +78,16 @@
     <None Include="HC_SR04 with Node Mcu.ino">
       <FileType>CppCode</FileType>
     </None>
+    <None Include="Node mcu with hc-sr04.fzz" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Common.h" />
     <ClInclude Include="__vm\.hcsr04_esp8266_sd.vsarduino.h" />
     <ClInclude Include="__vm\.HC_SR04 with Node Mcu.vsarduino.h" />
     <ClInclude Include="__vm\.HC_SR04-with-Node-Mcu.vsarduino.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="WiFiFile.txt" />
   </ItemGroup>
   <PropertyGroup>
     <DebuggerFlavor>VisualMicroDebugger</DebuggerFlavor>
