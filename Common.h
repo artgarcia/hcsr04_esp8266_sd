@@ -1,4 +1,16 @@
-// Common.h
+
+/*
+********************************************
+Common.h
+ Common functions used in projects
+
+Author     : Arthur A Garcia
+Create Date: 4/27/2017
+change log :
+
+********************************************
+*/
+
 #include <ArduinoJson.h>
 #include <NTPClient.h>
 #include <WiFiUdp.h>
@@ -7,10 +19,12 @@
 // need this lib for Secure SSL for ESP 8266 chip
 #include <WiFiClientSecure.h>  
 
-
+//
 // http://easycoding.tn/tuniot/demos/code/
+// use above to determine what gpio pins to use
 // D3 -> SDA
 // D4 -> SCL      display( address of display, SDA,SCL)
+//     
 #include "SSD1306.h"
 #define OLED_address  0x3c                           // OLED I2C bus address
 SSD1306  display(OLED_address, 2, 0);
@@ -124,7 +138,6 @@ void getSDData(String *passData)
 	passData[3] = url;
 	passData[4] = hostname;
 	passData[5] = sas;
-
 
 }
 

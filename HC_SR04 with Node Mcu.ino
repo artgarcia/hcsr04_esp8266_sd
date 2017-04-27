@@ -1,13 +1,18 @@
 
-
 /*
 ********************************************
-14CORE ULTRASONIC DISTANCE SENSOR CODE TEST
-NODE MCU .9 esp 8266 and hc-sr04 distance sensor
-modified by Blain Barton March 3rd, 2017
+ULTRASONIC DISTANCE SENSOR CODE
+Device: NODE MCU .9 esp 8266 
+	  : HC-SR04 distance sensor
+	  : Micro SD card reader
+	  : DIY Mall .96 inch display
+
+Author     : Arthur A Garcia
+Create Date: 4/27/2017
+change log :
+
 ********************************************
 */
-
 
 
 // common include file with additional user functions ise 
