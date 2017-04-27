@@ -75,7 +75,6 @@
     <ProjectCapability Include="VisualMicro" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\Node mcu with hc-sr04.fzz" />
     <None Include="HC_SR04 with Node Mcu.ino">
       <FileType>CppCode</FileType>
     </None>
